@@ -1,0 +1,64 @@
+html,body{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+body{
+    margin: 0px auto;
+    max-width: 1000px;
+}
+
+h1{
+    margin: 0;
+}
+
+th{
+    color: blueviolet;
+    border: 1px solid rgb(103, 77, 77);
+    padding: 10px 60px;
+}
+
+thead{
+    background-color: rgb(153, 145, 153);
+    line-height: 20px;
+}
+
+header{
+    background-color: rgb(153, 145, 153);
+    padding: 0 20px;
+    color: rgb(71, 187, 216);
+    line-height: 100px;
+}
+
+#contact-display, #new-contact{
+    padding: 20px;
+}
+
+#new-contact{
+    background-color: rgb(91, 115, 203);
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+label{
+    display: inline;
+    width: 90px;
+    text-align: right;
+}
+
+button{
+    background-color: saddlebrown;
+    color: white;
+    padding: 7px;
+    box-shadow: 5px 5px 5px rgb(135, 31, 214);
+    border-radius: 5px;
+    margin: 10px;
+}
+
+button:hover{
+    background-color: rgb(31, 214, 113);
+    border: none;
+    font-weight: bold;
+}
